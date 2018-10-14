@@ -1,0 +1,28 @@
+PODS:
+  - DeviceKit (1.8.1)
+  - EasyPeasy (1.7.0)
+  - lottie-ios (2.5.0)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - DeviceKit
+  - EasyPeasy
+  - lottie-ios
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeviceKit
+    - EasyPeasy
+    - lottie-ios
+    - Then
+
+SPEC CHECKSUMS:
+  DeviceKit: eb29be542f5473b46b1c719011cf7de3ec5264ca
+  EasyPeasy: 2f2785ed78c6f9e9045221f2ff317730e7321bff
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: c26f5c8621d8d309f7d26da3db7d87807d85f39a
+
+COCOAPODS: 1.5.3
