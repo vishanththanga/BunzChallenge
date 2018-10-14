@@ -1,5 +1,8 @@
 # BunzCourt 
 
+## What It Does
+bunzCourt is an IOS App that can be integrated with the BUNZ app. Using both an exchange and arbitration smart contract, if a buyer finds defects or issues with a product. They can file a complaint and take the seller to a decentralized court, making the situation as fair as possible for both parties.
+
 Initial Transactions: 
 
 Assuming a 100 Btz bike, the buyer sends 50 Btz to the escrow contract and sends 50 Btz to the seller. If there is a dispute, both the buyer and seller have to stake 15 Btz, and the three arbitrators have to stake 10 Btz.
