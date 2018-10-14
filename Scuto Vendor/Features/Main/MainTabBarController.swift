@@ -14,7 +14,7 @@ class MainTabBarController: UITabBarController {
     let csvc2 = ComingSoonViewController()
     let csvc3 = ComingSoonViewController()
     let homeViewController = HomeViewController()
-    let profileViewController = ProfileViewController()
+    let bunzController = BunzHomeViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,7 +64,7 @@ extension MainTabBarController {
     }
     
     func createThirdViewController() -> UIViewController {
-        var navigationVC = ScutoNavigationController(rootViewController: profileViewController)
+        var navigationVC = ScutoNavigationController(rootViewController: bunzController)
         navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "addIcon", selectedImageName: "")
         return navigationVC
     }
@@ -76,7 +76,7 @@ extension MainTabBarController {
     }
     
     func createFifthViewController() -> UIViewController {
-        var navigationVC = ScutoNavigationController(rootViewController: csvc3)
+        var navigationVC = ScutoNavigationController(rootViewController: bunzController)
         navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "walletIcon", selectedImageName: "")
         return navigationVC
     }

@@ -27,6 +27,7 @@ class BunzTransactionView: UIView {
         personNameLabel.text = personName
         userNameLabel.text = userName
         amountLabel.text = amount
+        setup()
         layoutViews()
     }
     
@@ -55,23 +56,35 @@ class BunzTransactionView: UIView {
         $0.text = "October 14, 2018"
     }
     
+    private let contentView = UIView()
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
 
 extension BunzTransactionView {
+    func setup (){
+        contentView.backgroundColor = UI.Colors.white
+        contentView.layer.cornerRadius = 5
+        contentView.layer.shadowColor = UI.Colors.black.cgColor
+        contentView.layer.shadowOpacity = 0.2
+        contentView.layer.shadowRadius = 5.0
+        contentView.layer.shadowOffset = CGSize(width: 0, height: 4)
+    }
     func layoutViews(){
-        addSubview(dateLabel)
-        dateLabel.easy.layout(Top(10), LeftMargin(2))
-        addSubview(imageNameLabel)
-        imageNameLabel.easy.layout(Top(12), Width(10), Height(10))
-        addSubview(personNameLabel)
-        personNameLabel.easy.layout(Top(14), LeftMargin(4))
-        addSubview(userNameLabel)
-        userNameLabel.easy.layout(Top(16), LeftMargin(4))
-        addSubview(amountLabel)
-        amountLabel.easy.layout(Top(14), RightMargin(2))
+        addSubview(contentView)
+        contentView.easy.layout(Width(350), Height(100), LeftMargin(10), RightMargin(10))
+        contentView.addSubview(dateLabel)
+        dateLabel.easy.layout(Top(10), LeftMargin(20))
+        contentView.addSubview(imageNameLabel)
+        imageNameLabel.easy.layout(Top(2).to(dateLabel), Width(50), Height(50), LeftMargin(20))
+        contentView.addSubview(personNameLabel)
+        personNameLabel.easy.layout(Top(2).to(dateLabel), Left(5).to(imageNameLabel))
+        contentView.addSubview(userNameLabel)
+        userNameLabel.easy.layout(Top(2).to(personNameLabel), Left(5).to(imageNameLabel))
+        contentView.addSubview(amountLabel)
+        amountLabel.easy.layout(Top(4).to(dateLabel), Left(170).to(personNameLabel))
     }
 }
 

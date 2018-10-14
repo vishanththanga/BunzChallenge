@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B871ECB2173215E006DF326 /* BunzImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECA2173215E006DF326 /* BunzImageView.swift */; };
 		3B871ECD21732F58006DF326 /* BunzTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECC21732F58006DF326 /* BunzTransactionView.swift */; };
+		3B871ECF21733695006DF326 /* BunzTransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */; };
 		5392499821731DB800E78415 /* BunzHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392499721731DB800E78415 /* BunzHomeViewController.swift */; };
 		648CD77A775A1195259752EE /* Pods_Scuto_Vendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE9763D4A4D78B63973B694 /* Pods_Scuto_Vendor.framework */; };
 		8A068C31210AC60200AA8E91 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A068C30210AC60200AA8E91 /* ScrollViewController.swift */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		3B871ECA2173215E006DF326 /* BunzImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzImageView.swift; sourceTree = "<group>"; };
 		3B871ECC21732F58006DF326 /* BunzTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzTransactionView.swift; sourceTree = "<group>"; };
+		3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzTransactionDetailsView.swift; sourceTree = "<group>"; };
 		5392499721731DB800E78415 /* BunzHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzHomeViewController.swift; sourceTree = "<group>"; };
 		8A068C30210AC60200AA8E91 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8A20C552211165F2000C0793 /* UIColor+HexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexInit.swift"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				3B871ECA2173215E006DF326 /* BunzImageView.swift */,
 				3B871ECC21732F58006DF326 /* BunzTransactionView.swift */,
+				3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				8ACDA26220E6B0CB00839A9F /* HomeHeaderView.swift in Sources */,
 				8A6ADD9420CF154C006E9F49 /* MainTabBarController.swift in Sources */,
 				8A91C4D521245C72001CC0F5 /* BorderedButton.swift in Sources */,
+				3B871ECF21733695006DF326 /* BunzTransactionDetailsView.swift in Sources */,
 				8A29910C212CD5F200F9AA3F /* BookingDetailPaymentView.swift in Sources */,
 				8A068C31210AC60200AA8E91 /* ScrollViewController.swift in Sources */,
 				3B871ECD21732F58006DF326 /* BunzTransactionView.swift in Sources */,

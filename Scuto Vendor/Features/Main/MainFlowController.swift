@@ -11,12 +11,12 @@ import UIKit
 class MainFlowController: UIViewController {
     
     private let mainTabBarController = MainTabBarController()
-    private let bookingsFlowController = BookingsFlowController()
+    private let bunzController = BunzHomeViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mainTabBarController.homeViewController.delegate = self
+        //mainTabBarController.homeViewController.delegate = self
     }
     
     func start() {
@@ -31,11 +31,11 @@ extension MainFlowController {
     }
 }
 
-// MARK: - Bookings Flow
+/*// MARK: - Bookings Flow
 extension MainFlowController {
     func startBookingsFlow() {
-        add(childController: bookingsFlowController)
-        bookingsFlowController.start()
+        add(childController: BunzHomeViewController())
+        bunzController.start()
     }
 }
 
@@ -49,3 +49,4 @@ extension MainFlowController: HomeViewControllerDelegate {
     
     
 }
+*/
