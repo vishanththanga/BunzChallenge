@@ -13,8 +13,6 @@ class AppFlowController: UIViewController {
     private let splashViewController = SplashViewController()
     private let mainFlowController = MainFlowController()
     private let authFlowController = AuthFlowController()
-    private var isLoggedIn: Bool = false
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -29,7 +27,7 @@ extension AppFlowController {
     func presentSplashViewController() {
         add(childController: splashViewController)
         
-        let deadline = DispatchTime.now() + 1.5
+        let deadline = DispatchTime.now() + 2.5
         DispatchQueue.main.asyncAfter(deadline: deadline, execute: {
             self.dismissSplashViewController()
         })
@@ -37,12 +35,7 @@ extension AppFlowController {
     
     func dismissSplashViewController() {
         remove(childController: splashViewController, delay: 1)
-        
-        if isLoggedIn {
-            startMainFlowController()
-        } else {
-            startAuthFlowController()
-        }
+        startMainFlowController()
     }
 }
 

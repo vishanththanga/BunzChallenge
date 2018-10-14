@@ -17,7 +17,7 @@ class SplashViewController: UIViewController {
         
         view.backgroundColor = UI.Colors.white
         
-        let imageView = UIImageView(image: UIImage(named: "scutoLightBlueLogo"))
+        let imageView = UIImageView(image: UIImage(named: "bunzLogo"))
         view.addSubview(imageView)
         imageView.easy.layout(CenterX(), Top(220))
 

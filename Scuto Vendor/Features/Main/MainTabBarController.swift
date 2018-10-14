@@ -10,7 +10,9 @@ import UIKit
 
 class MainTabBarController: UITabBarController {
 
-    let csvc1 = ComingSoonViewController()
+    let homeController = HomeViewController()
+    let csvc2 = ComingSoonViewController()
+    let csvc3 = ComingSoonViewController()
     let homeViewController = HomeViewController()
     let profileViewController = ProfileViewController()
     
@@ -41,27 +43,41 @@ extension MainTabBarController {
         let vc1 = createFirstViewController()
         let vc2 = createSecondViewController()
         let vc3 = createThirdViewController()
+        let vc4 = createFourthViewController()
+        let vc5 = createFifthViewController()
         
-        self.viewControllers = [vc1, vc2, vc3]
+        self.viewControllers = [vc1, vc2, vc3, vc4, vc5]
         
-        selectedIndex = 1
+        selectedIndex = 0
     }
     
     func createFirstViewController() -> UIViewController {
-        var navigationVC = ScutoNavigationController(rootViewController: csvc1)
-        navigationVC = setupTabBarItem(for: navigationVC, title: "CHAT", imageName: "chatIcon", selectedImageName: "selectedChatIcon")
+        var navigationVC = ScutoNavigationController(rootViewController: homeController)
+        navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "homeIcon", selectedImageName: "selectedHomeIcon")
         return navigationVC
     }
     
     func createSecondViewController() -> UIViewController {
         var navigationVC = ScutoNavigationController(rootViewController: homeViewController)
-        navigationVC = setupTabBarItem(for: navigationVC, title: "HOME", imageName: "homeIcon", selectedImageName: "selectedHomeIcon")
+        navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "searchIcon", selectedImageName: "selectedSearchcon")
         return navigationVC
     }
     
     func createThirdViewController() -> UIViewController {
         var navigationVC = ScutoNavigationController(rootViewController: profileViewController)
-        navigationVC = setupTabBarItem(for: navigationVC, title: "PROFILE", imageName: "profileIcon", selectedImageName: "selectedProfileIcon")
+        navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "addIcon", selectedImageName: "")
+        return navigationVC
+    }
+    
+    func createFourthViewController() -> UIViewController {
+        var navigationVC = ScutoNavigationController(rootViewController: csvc2)
+        navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "messagesIcon", selectedImageName: "")
+        return navigationVC
+    }
+    
+    func createFifthViewController() -> UIViewController {
+        var navigationVC = ScutoNavigationController(rootViewController: csvc3)
+        navigationVC = setupTabBarItem(for: navigationVC, title: "", imageName: "walletIcon", selectedImageName: "")
         return navigationVC
     }
     

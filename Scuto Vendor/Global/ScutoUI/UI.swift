@@ -14,12 +14,13 @@ struct UI {
         static let red = UIColor.red
         static let white = UIColor.white
         static let black = UIColor.black
-        static let blue = UIColor(hexValue: 0x58A6FF)
+        static let blue = UIColor(hexValue: 0xF9C926)
         static let lightGrey = UIColor(hexValue: 0xCCCCCC)
         static let lightestGrey = UIColor(hexValue: 0xD6D9DE)
         static let backgroundColor = UIColor(hexValue: 0xFCFCFC)
+        static let yellow = UIColor(hexValue: 0xF9C926)
         
-        static let lightBlue = UIColor(hexValue: 0x58A6FF)
+        static let lightBlue = UIColor(hexValue: 0xF9C926)
     }
     
     struct Font {

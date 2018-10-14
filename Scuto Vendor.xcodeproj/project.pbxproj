@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5392499821731DB800E78415 /* BunzHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392499721731DB800E78415 /* BunzHomeViewController.swift */; };
 		648CD77A775A1195259752EE /* Pods_Scuto_Vendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE9763D4A4D78B63973B694 /* Pods_Scuto_Vendor.framework */; };
 		8A068C31210AC60200AA8E91 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A068C30210AC60200AA8E91 /* ScrollViewController.swift */; };
 		8A20C553211165F2000C0793 /* UIColor+HexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20C552211165F2000C0793 /* UIColor+HexInit.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5392499721731DB800E78415 /* BunzHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzHomeViewController.swift; sourceTree = "<group>"; };
 		8A068C30210AC60200AA8E91 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8A20C552211165F2000C0793 /* UIColor+HexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexInit.swift"; sourceTree = "<group>"; };
 		8A20C55421116662000C0793 /* UILabel+SetFontAndText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+SetFontAndText.swift"; sourceTree = "<group>"; };
@@ -112,6 +114,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5392499921731E0000E78415 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8A0C438920D3FE550049691A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,9 +132,11 @@
 		8A204F0A20FE20B600719CD0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5392499921731E0000E78415 /* Views */,
 				8A998D272113372600F39019 /* MainFlowController.swift */,
 				8A6ADD9320CF154C006E9F49 /* MainTabBarController.swift */,
 				8AD0384820D0563500410728 /* ComingSoonViewController.swift */,
+				5392499721731DB800E78415 /* BunzHomeViewController.swift */,
 				8A20C54D211163AF000C0793 /* Home */,
 				8A20C54F211163F8000C0793 /* Profile */,
 			);
@@ -516,6 +527,7 @@
 				8AF5850E2114C8DD003BB058 /* ProfileTextEditViewController.swift in Sources */,
 				8A998D282113372600F39019 /* MainFlowController.swift in Sources */,
 				8A91C4D721246196001CC0F5 /* UIButton+SetBackgroundColor.swift in Sources */,
+				5392499821731DB800E78415 /* BunzHomeViewController.swift in Sources */,
 				8A20C55D211168E1000C0793 /* UIViewController+AddRemoveChildren.swift in Sources */,
 				8A69A98B20FEB2DC00C5999A /* ProfileViewController.swift in Sources */,
 				8AEA9DC520B0F7D300BA9A16 /* AppDelegate.swift in Sources */,
