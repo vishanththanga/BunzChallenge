@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397C8C8421733C9A0027959A /* BunzBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C8C8321733C9A0027959A /* BunzBalanceView.swift */; };
+		397C8C862173471A0027959A /* BunzMainButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C8C852173471A0027959A /* BunzMainButtonsView.swift */; };
 		3B871ECB2173215E006DF326 /* BunzImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECA2173215E006DF326 /* BunzImageView.swift */; };
 		3B871ECD21732F58006DF326 /* BunzTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECC21732F58006DF326 /* BunzTransactionView.swift */; };
 		3B871ECF21733695006DF326 /* BunzTransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		397C8C8321733C9A0027959A /* BunzBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzBalanceView.swift; sourceTree = "<group>"; };
+		397C8C852173471A0027959A /* BunzMainButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzMainButtonsView.swift; sourceTree = "<group>"; };
 		3B871ECA2173215E006DF326 /* BunzImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzImageView.swift; sourceTree = "<group>"; };
 		3B871ECC21732F58006DF326 /* BunzTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzTransactionView.swift; sourceTree = "<group>"; };
 		3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzTransactionDetailsView.swift; sourceTree = "<group>"; };
@@ -124,8 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				3B871ECA2173215E006DF326 /* BunzImageView.swift */,
+				397C8C8321733C9A0027959A /* BunzBalanceView.swift */,
 				3B871ECC21732F58006DF326 /* BunzTransactionView.swift */,
+<<<<<<< HEAD
 				3B871ECE21733695006DF326 /* BunzTransactionDetailsView.swift */,
+=======
+				397C8C852173471A0027959A /* BunzMainButtonsView.swift */,
+>>>>>>> d69c85decc5f0b5bf07bbee5c12fc9e7093268e8
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -523,6 +532,7 @@
 				8AD4D37E20ED0120001AE39B /* HomeBigButtonView.swift in Sources */,
 				8AFD58FA212CFBFE002372CC /* BookingDetailCardScrollView.swift in Sources */,
 				8AE342D0211C769D00A3CBF1 /* OnboardingViewController.swift in Sources */,
+				397C8C8421733C9A0027959A /* BunzBalanceView.swift in Sources */,
 				8AD0384920D0563500410728 /* ComingSoonViewController.swift in Sources */,
 				8AB20EFB20F3AC83002BC816 /* SearchViewControllerTransition.swift in Sources */,
 				8AB20EF320F3A64A002BC816 /* SearchViewController.swift in Sources */,
@@ -545,6 +555,7 @@
 				8AEA9DC520B0F7D300BA9A16 /* AppDelegate.swift in Sources */,
 				8A69A99120FEF1E100C5999A /* ProfileDescriptionView.swift in Sources */,
 				8A6ADD9720CF34AC006E9F49 /* UI.swift in Sources */,
+				397C8C862173471A0027959A /* BunzMainButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
