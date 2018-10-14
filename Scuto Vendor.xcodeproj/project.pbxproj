@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B871ECB2173215E006DF326 /* BunzImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B871ECA2173215E006DF326 /* BunzImageView.swift */; };
 		5392499821731DB800E78415 /* BunzHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5392499721731DB800E78415 /* BunzHomeViewController.swift */; };
 		648CD77A775A1195259752EE /* Pods_Scuto_Vendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE9763D4A4D78B63973B694 /* Pods_Scuto_Vendor.framework */; };
 		8A068C31210AC60200AA8E91 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A068C30210AC60200AA8E91 /* ScrollViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B871ECA2173215E006DF326 /* BunzImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzImageView.swift; sourceTree = "<group>"; };
 		5392499721731DB800E78415 /* BunzHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunzHomeViewController.swift; sourceTree = "<group>"; };
 		8A068C30210AC60200AA8E91 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8A20C552211165F2000C0793 /* UIColor+HexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexInit.swift"; sourceTree = "<group>"; };
@@ -114,9 +116,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5392499921731E0000E78415 /* Views */ = {
+		3B871EC921732125006DF326 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B871ECA2173215E006DF326 /* BunzImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,7 +135,7 @@
 		8A204F0A20FE20B600719CD0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				5392499921731E0000E78415 /* Views */,
+				3B871EC921732125006DF326 /* Views */,
 				8A998D272113372600F39019 /* MainFlowController.swift */,
 				8A6ADD9320CF154C006E9F49 /* MainTabBarController.swift */,
 				8AD0384820D0563500410728 /* ComingSoonViewController.swift */,
@@ -517,6 +520,7 @@
 				8AD0384920D0563500410728 /* ComingSoonViewController.swift in Sources */,
 				8AB20EFB20F3AC83002BC816 /* SearchViewControllerTransition.swift in Sources */,
 				8AB20EF320F3A64A002BC816 /* SearchViewController.swift in Sources */,
+				3B871ECB2173215E006DF326 /* BunzImageView.swift in Sources */,
 				8A20C55B21116828000C0793 /* BookingsFlowController.swift in Sources */,
 				8ACDA26220E6B0CB00839A9F /* HomeHeaderView.swift in Sources */,
 				8A6ADD9420CF154C006E9F49 /* MainTabBarController.swift in Sources */,
